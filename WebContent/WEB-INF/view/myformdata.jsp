@@ -9,6 +9,6 @@
 <body>
 
 <br>
-your friend name is ${myuser}
+your friend name is ${user.firstName} ${user.lastName}
 </body>
 </html>

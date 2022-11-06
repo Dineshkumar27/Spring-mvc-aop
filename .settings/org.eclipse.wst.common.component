@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Spring-mvc-demo">
+            
+    
+    <wb-module deploy-name="Spring-mvc-demo-aop">
+                        
+        
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Spring-mvc-demo"/>
-        <property name="java-output-path" value="/Spring-mvc-demo/build/classes"/>
+                        
+        
+        <property name="java-output-path" value="/Spring-mvc-demo-aop/build/classes"/>
+        <property name="context-root" value="Spring-mvc-demo-aop"/>
+                    
+    
     </wb-module>
+        
+
 </project-modules>

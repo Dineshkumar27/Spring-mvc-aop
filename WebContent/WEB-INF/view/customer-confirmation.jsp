@@ -6,12 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form:form action="processForm2" modelAttribute="user">
-FirstName:<form:input path="firstName"/>
-<br>
-LastName:<form:input path="lastName"/>
-<input type="submit" value="submit"/>
-</form:form>
-
+The customer is confirmed ${customer.firstName} ${customer.lastName} with mail id ${customer.email}
 </body>
 </html>
